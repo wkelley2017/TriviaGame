@@ -2,7 +2,7 @@
 body {background-color: cyan;}
 
 #mainbox     {
-    height:500px;
+    height:845px;
     width: 980px;
     display: block;
     margin-left: auto;
@@ -26,5 +26,19 @@ h1   {
     width: 10%;
     margin: auto;
     padding-top: 30px;
-}   
+}
+  
+#video   {
+    padding-left:20px;
+    border-width:10px;
+    border-color:olivedrab;
+    float: left;
+}
+#placid  {
+    padding-left:20px;
+    border-width:10px;
+    border-color:olivedrab;
+    float: right;
+
+}
 
