@@ -16,7 +16,7 @@ $(document).ready(function(){
     var firstChoice = ["up Mickey's ass", " killer ", "steel-cut oats with yoghurt", "Jerry Springer", "UFO's", "72", "A lone assasin.", "Iron Maiden"];
     var secondChoice = ["in his hat", "Humpback", "a quart of Kentucky Deluxe bourbon", "Texas, Denver, and Canada", " Caitlyn Jenner", "6", "A lone assasin.", "Procol Harum"];
     var thirdChoice = ["up my ass", "Sperm", "two eggs over easy, bacon", "38 states", "trouble", "14", "A lone assasin.", "Oasis"];
-    var fourthChoice = ["up your ass", "Beluga", "Three cold pop-tarts", "26 states", "sandwich baggies", "trick question, no-one knows", "get the message?", "The Police"];
+    var fourthChoice = ["up your street", "Beluga", "Three cold pop-tarts", "26 states", "sandwich baggies", "trick question, no-one knows", "get the message?", "The Police"];
 
 // Show & Hide Functions
     function showHolders() {
@@ -51,7 +51,7 @@ $(document).ready(function(){
         $("#choice-holder-3").html(thirdChoice[count]);
         $("#choice-holder-4").html(fourthChoice[count]);
     
-    // Hover CSS
+    // Hover CSS-nice touch
         $("#choice-holder-1").hover(function() {
             $(this).css("color", "gray");
         },
@@ -220,7 +220,7 @@ $(document).ready(function(){
         displayQuestion();
     }
 
-// Start Game On Click
+// Start Game On Click-this took...a while
   $(".start").on("click", function() {
     startGame();
   });
