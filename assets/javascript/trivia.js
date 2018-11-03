@@ -8,7 +8,7 @@ $(document).ready(function(){
     var incorrect = 0;
     var unanswered = 0;
 
-// Questions and Answer Arrays
+            // Questions and Answer Array
     var question = ["Disney's Super-Goof character was a super hero that Goofy became when he ate super-goobers, which he kept:",
     "Capable of plunging to depths of over 7,000 feet in the ocean and the giant squid's only predator, the _______  whale is really kick-ass!", "For breakfast this morning (October 30th, 2018) I had:", "Amendments to the US Constitution must be ratified by:", "Nobody knows the ____ I seen....",
     "Mozart's first opera, 'Mitridate, re di Ponto', was composed when he was __ years of age.", "John F Kennedy was assisinated 1963 in Dallas by:", "Which English band whose number one single 'A Whiter Shade of Pale' owed a compositional debt to Percy Sledge?"];
@@ -18,7 +18,7 @@ $(document).ready(function(){
     var thirdChoice = ["up my ass", "Sperm", "two eggs over easy, bacon", "38 states", "trouble", "14", "A lone assasin.", "Oasis"];
     var fourthChoice = ["up your street", "Beluga", "Three cold pop-tarts", "26 states", "sandwich baggies", "trick question, no-one knows", "get the message?", "The Police"];
 
-// Show & Hide Functions
+  // Show & Hide Functions
     function showHolders() {
         $("#question-holder").show();
         $("#choice-holder-1").show();
@@ -174,11 +174,11 @@ $(document).ready(function(){
         }
         else if(count === 3) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/constitution.jpg">');
+             $("#image-holder").html('<img src="assets/images/constitution.jpg">');
         }
         else if(count === 4) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/billieholiday.jpg">');
+              $("#image-holder").html('<img src="assets/images/billieholiday.jpg">');
         }
         else if(count === 5) {
             $("#image-holder").show();
@@ -207,13 +207,14 @@ $(document).ready(function(){
     }
 
 // Reset Results Function 
-    function resetResults() {
+    
+               function resetResults() {
         correct = 0;
         incorrect = 0;
         unanswered = 0;
     }
 
-// Start Game Function
+      // Start Game Function
     function startGame() {
         $(".start").hide();
         startTime();
